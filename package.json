@@ -1,0 +1,16 @@
+{
+  "name": "covid_scraper",
+  "version": "1.0.0",
+  "description": "A web scraper to get nigeria's covid-19 data off ncdc's website",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "keywords": [],
+  "author": "Victor Chukwurah",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
+}
